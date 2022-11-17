@@ -11,7 +11,7 @@ const palindromes = function (phrase) {
     let half = (letters.length / 2 + 1);
     let fHalf = letters.slice(0, half);
     let lHalf;
-    
+
     if (letters.length % 2 === 0) {
 
         lHalf = letters.slice(half - 2, letters.length).reverse()
@@ -26,9 +26,6 @@ const palindromes = function (phrase) {
 
     return false;
 };
-
-palindromes("'Animal loots foliated detail of stool lamina.");
-
 
 // Do not edit below this line
 module.exports = palindromes;
